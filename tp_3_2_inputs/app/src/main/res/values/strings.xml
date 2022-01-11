@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">tp_3_2_inputs</string>
+    <string name="you_ordered_a_donut">You ordered a donut.</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="choose_a_delivery_method">Choose a delivery method:</string>
+    <string name="same_day_delivery">Same day delivery</string>
+    <string name="next_day_delivery">Next day delivery</string>
+    <string name="pick_up">Pick Up</string>
+
+    <string-array name="phone_type">
+        <item>Home</item>
+        <item>Mobile</item>
+        <item>Work</item>
+    </string-array>
+</resources>
