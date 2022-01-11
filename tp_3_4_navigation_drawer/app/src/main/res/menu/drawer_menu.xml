@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/menu_import"
+            android:icon="@drawable/ic_baseline_camera_alt_24"
+            android:title="@string/import_btn"
+            android:background="?attr/selectableItemBackground"/>
+        <item
+            android:id="@+id/menu_gallery"
+            android:icon="@drawable/ic_baseline_image_24"
+            android:title="@string/gallery" />
+
+        <item
+            android:id="@+id/menu_slideshow"
+            android:icon="@drawable/ic_baseline_slideshow_24"
+            android:title="@string/slideshow" />
+        <item
+            android:id="@+id/menu_tools"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/tools" />
+    </group>
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/menu_share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="@string/share" />
+
+        <item
+            android:id="@+id/menu_send"
+            android:icon="@drawable/ic_baseline_send_24"
+            android:title="@string/send" />
+
+    </group>
+
+</menu>
