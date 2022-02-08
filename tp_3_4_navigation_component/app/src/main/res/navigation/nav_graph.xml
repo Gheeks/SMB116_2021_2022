@@ -14,9 +14,14 @@
             android:id="@+id/action_mainFragment_to_secondFragment"
             app:destination="@id/secondFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/secondFragment"
         android:name="com.example.tp_3_4_navigation_component.SecondFragment"
         android:label="fragment_2"
-        tools:layout="@layout/fragment_2" />
+        tools:layout="@layout/fragment_2" >
+        <action
+            android:id="@+id/action_secondFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
 </navigation>
