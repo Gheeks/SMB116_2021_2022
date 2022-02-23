@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">tp_5_1_internet</string>
+    <string name="you_are_connected">You are connected !</string>
+    <string name="you_are_not_connected">You are not connected !</string>
+</resources>
